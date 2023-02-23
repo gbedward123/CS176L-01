@@ -52,16 +52,10 @@
 	    
 	    public void getStatistics(){
 
-	        
-	        System.out.println();
-	        System.out.println("Number of donations for individual :"+numIndividual);
-	        System.out.println("Total donations for individual :"+amtIndividual);
-	        System.out.println();
-	        System.out.println("Number of donations for business :"+numBusiness);
-	        System.out.println("Total donations for business :"+amtBusiness);
-	        System.out.println();
-	        System.out.println("Number of donations for other :"+numOther);
-	        System.out.println("Total donations for other :"+amtOther);
+	    	System.out.println("Individual: #:"+numIndividual+" $"+amtIndividual);
+	    	System.out.println("Business: #:"+numBusiness+" $"+amtBusiness);
+	    	System.out.println("Other: #:"+numOther+" $"+amtOther);
+
 	    }
 
 	}
